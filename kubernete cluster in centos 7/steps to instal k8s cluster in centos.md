@@ -92,7 +92,7 @@ cp /etc/kubernetes/admin.conf /home/prasanth/.kube/config
 chown -R prasanth:prasanth /home/prasanth/.kube
 ```
 ##### Deploy flannel network
-This has to be done as the user in the above step (in my case it is __venkatn__)
+This has to be done as the user in the above step (in my case it is __prasanth__)
 ```
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
